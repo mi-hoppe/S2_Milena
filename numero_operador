@@ -8,3 +8,9 @@ def calculador (num, operador, num2):
     elif operador == '-':
         return num - num2
     elif operador == '*':
+        return num * num2
+    elif operador == '/':
+        return num /  num2
+    else:
+        return "Operador invalido"
+print(calculador(num, operador, num2)) 
