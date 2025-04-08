@@ -1,16 +1,16 @@
 print('Digite um numero e o operador para ue utilizar')
 num = int(input('Digite o numero: '))
-operadora = input('Digite o operador: ')
+operador = input('Digite o operador: ')
 num2 = int(input('Digite o segundo numero: '))
 def calculador (num, operador, num2):
     if operador == '+':
-        return num - num2
-    elif operador == '-':
         return num + num2
+    elif operador == '-':
+        return num - num2
     elif operador == '*':
-        return num / num2
+        return num * num2
     elif operador == '/':
-        return num *  num2
+        return num /  num2
     else:
         return "Operador invalido"
 print(calculador(num, operador, num2)) 
